@@ -21,7 +21,7 @@ export async function activate(context: ExtensionContext): Promise<SchemaExtensi
   const serverModule = context.asAbsolutePath('./dist/languageserver.js');
 
   // The debug options for the server
-  const debugOptions = { execArgv: ['--nolazy', '--inspect=6009'] };
+  const debugOptions = { execArgv: ['--nolazy', '--inspect=9316'] };
 
   // If the extension is launched in debug mode then the debug server options are used
   // Otherwise the run options are used
