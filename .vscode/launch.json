@@ -10,7 +10,7 @@
       "args": ["--extensionDevelopmentPath=${workspaceRoot}"],
       "stopOnEntry": false,
       "sourceMaps": true,
-      "outFiles": ["${workspaceRoot}/dist/**/*.js"],
+      "outFiles": ["${workspaceFolder}/dist/*.js"],
       "preLaunchTask": "compile typescript",
       "env": {
         "VSCODE_REDHAT_TELEMETRY_DEBUG":"true"
